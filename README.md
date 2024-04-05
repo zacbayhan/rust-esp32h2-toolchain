@@ -23,6 +23,7 @@ This document should help you get the [Esp-32-H2 RISC-V MCU](./docs/esp32-h2_dat
     * Builds the project
 * `cargo espflash flash --list-all-ports`
     * Flashes newly built project to device on all availible ports.
+* `cargo espflash monitor --chip esp32h2 --baud=115200  --port /dev/ttyUSB0`
 * `cargo size -- -Ax` 
     * shows linker script output
 * [rtt debuging](https://crates.io/crates/rtt-target) currently no working
