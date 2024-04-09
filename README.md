@@ -1,6 +1,8 @@
 **__Rust-ESP32__**
 
-This document should help you get the [Esp-32-H2 RISC-V MCU](./docs/esp32-h2_datasheet_en.pdf) running the rust programing language. 
+This document should help you get the [Esp-32-H2 RISC-V MCU](./docs/esp32-h2_datasheet_en.pdf) running the rust programing language. Currently the esp32-h2 board doesn't support [wifi or coex](https://github.com/esp-rs/esp-wifi/blob/main/esp-wifi/README.md) 
+
+
 
 **__Dependices__**
 * libssl-dev
